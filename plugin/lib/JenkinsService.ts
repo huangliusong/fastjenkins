@@ -76,6 +76,8 @@ export function createService() {
         config.params = {};
         config.url = url;
       }
+      //bug1#"Request path contains unescaped characters"
+      config.url=encodeURI(`${config.url}`);
       return config;
     },
     (error) => {
