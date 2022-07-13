@@ -39,3 +39,7 @@ https://gitee.com/daffodil/fastjenkins
 - reactjs18
 - less
 - esbuild
+
+
+## 备注
+> vsce publish

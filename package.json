@@ -1,8 +1,8 @@
 {
   "name": "fastjenkinshls",
   "displayName": "Fast Jenkins HLS",
-  "version": "2.0.1",
-  "description": "conveniently access jenkins and build your jobs.huangliusong v2.0.0",
+  "version": "2.0.2",
+  "description": "无需登录jenkins网站，一键构建job更方便的jenkins插件.UPDATE By HuangLiusong V2 ",
   "main": "./dist/extension.js",
   "author": "huangliusong",
   "license": "MIT",
