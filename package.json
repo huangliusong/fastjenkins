@@ -1,26 +1,26 @@
 {
-  "name": "fastjenkins",
-  "displayName": "Fast Jenkins",
-  "version": "1.1.9",
-  "description": "conveniently access jenkins and build your jobs.",
+  "name": "fastjenkinshls",
+  "displayName": "Fast Jenkins HLS",
+  "version": "2.0.0",
+  "description": "conveniently access jenkins and build your jobs.huangliusong v2.0.0",
   "main": "./dist/extension.js",
-  "author": "MorningWinter",
+  "author": "huangliusong",
   "license": "MIT",
-  "publisher": "morningwinter",
+  "publisher": "huangliusong",
   "icon": "static/jenkins.png",
   "categories": [
     "Other"
   ],
   "keywords": [
-    "muyuan",
+    "hls",
     "jenkins",
     "fast",
-    "morningwinter",
+    "huangliusong",
     "build"
   ],
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/daffodil/fastjenkins/"
+    "url": "https://github.com/huangliusong/fastjenkins.git"
   },
   "activationEvents": [
     "onView:fastJenkins.sidebarView"
@@ -29,14 +29,14 @@
     "viewsContainers": {
       "activitybar": [
         {
-          "id": "fast-jenkins",
+          "id": "fast-jenkins-hls",
           "title": "Fast Jenkins: 快速部署",
           "icon": "static/jenkins.svg"
         }
       ]
     },
     "views": {
-      "fast-jenkins": [
+      "fast-jenkins-hls": [
         {
           "id": "fastJenkins.sidebarView",
           "type": "webview",
@@ -64,7 +64,7 @@
       ]
     },
     "configuration": {
-      "title": "FastJenkins",
+      "title": "FastJenkinsHls",
       "properties": {
         "fastjenkins.apiToken": {
           "type": "string",

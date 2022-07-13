@@ -8,7 +8,8 @@ export function activate(context: vscode.ExtensionContext) {
   const provider = new SidebarViewProvider(context.extensionUri);
 
   context.subscriptions.push(vscode.window.registerWebviewViewProvider(SidebarViewProvider.viewType, provider));
-
+  //弹框提示
+  vscode.window.showInformationMessage('fast jenkins hls v2...success');
   // 注册本地存储
   storage.register(context);
 
