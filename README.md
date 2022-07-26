@@ -2,6 +2,8 @@
 
 ### 介绍: 该版本为修复bug版本，后文有原插件地址，请参考。
 
+![vscode-应用市场本插件下载地址](https://marketplace.visualstudio.com/items?itemName=huangliusong.fastjenkinshls)
+
 快速访问 `jenkins服务` 并 `执行构建`
 
 ![userId](https://mz-framework-dev.oss-cn-beijing.aliyuncs.com/fastjenkins/ui.jpg)
